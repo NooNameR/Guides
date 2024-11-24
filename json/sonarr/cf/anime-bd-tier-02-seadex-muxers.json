@@ -259,12 +259,30 @@
       }
     },
     {
+      "name": "Moxie",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[Moxie\\]|-Moxie\\b"
+      }
+    },
+    {
       "name": "MTBB",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
         "value": "\\b(MTBB)\\b"
+      }
+    },
+    {
+      "name": "Not-Vodes",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\[Not-Vodes\\]|-Not-Vodes\\b"
       }
     },
     {
@@ -283,6 +301,15 @@
       "required": false,
       "fields": {
         "value": "\\b(NSDAB)\\b"
+      }
+    },
+    {
+      "name": "Okay-Subs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Okay-Subs)\\b"
       }
     },
     {
